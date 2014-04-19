@@ -1,6 +1,12 @@
-node.js Conditional Task Scheduler (v0.001)
+nCond - node.js Conditional Task Scheduler - v0.01
 ==========================
 
-Simple task scheduler with conditions feature.
-Run tasks with or without conditions using task manager. 
-Sample in index.js file.
+nCond is a super simple and super lightweight task scheduler for Node.
+
+#Features:
+	- Creating Tasks
+	- Scheduling tasks
+	- Conditional tasks execution
+
+#Future:
+	- Persistence
