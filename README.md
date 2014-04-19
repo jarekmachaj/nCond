@@ -11,3 +11,5 @@ nCond is a super simple and super lightweight task scheduler for Node.
 
 #Future:
 	- Persistence
+	- Task Logging
+	- Start/Completion events 
