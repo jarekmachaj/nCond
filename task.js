@@ -45,7 +45,7 @@ Task.prototype.Start = function(){
 	if (this.CanDoNextRun() && this.Exec != undefined && this.Exec != null){
 		this.IsRunning = true;		
 		var task = this;
-		this.RepeaterObj = setTimeout(function() { RunTask(task); }, this.Interval);
+		this.RepeaterObj = setTimeout(function(){ task.RunTask(task); }, this.Interval);
 		this.StopRepeater = function() { clearTimeout(this.RepeaterObj); }
 	} else {
 		Task.prototype.NextRun = null;
@@ -86,7 +86,7 @@ Task.prototype.CheckCondition = function(){
 	return false;
 }
 
-var RunTask = function(task){
+Task.prototype.RunTask = function(task){
 	var date = Date.now();
 	task.LastRun =  date;
 	

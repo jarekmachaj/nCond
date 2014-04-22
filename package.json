@@ -1,0 +1,20 @@
+{
+  "name": "nCond",
+  "version": "0.0.0",
+  "description": "nCond - node.js Conditional Task Scheduler - v0.01 ==========================",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jarekmachaj/conditional-task-scheduler.git"
+  },
+  "author": "Jarek Machaj",
+  "license": "BSD",
+  "gitHead": "16bb1f90ce171494a7364bcb44e4e02dfd7a2afc",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "cheerio": "~0.15.0"
+  }
+}
